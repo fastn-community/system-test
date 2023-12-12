@@ -1,0 +1,14 @@
+-- import: design-system
+export: header
+
+
+-- component heading-small:
+caption title:
+;; design-system.kind kind:
+
+-- ftd.text: $heading-small.title
+color: purple
+;; color if { heading-small.kind == regular }: pink
+role: $inherited.types.heading-medium
+
+-- end: heading-small

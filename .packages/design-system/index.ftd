@@ -1,0 +1,38 @@
+/-- or-type kind:
+
+-- constant integer regular: 1
+-- constant integer special: 2
+
+-- end: kind
+
+
+-- component heading-small:
+caption title:
+;; kind kind:
+
+-- ftd.text: $heading-small.title
+color: red
+;; color if { heading-small.kind == regular }: orange
+role: $inherited.types.heading-small
+
+-- end: heading-small
+
+
+
+
+
+
+
+-- component header:
+caption title:
+
+-- ftd.row:
+width: fill-container
+;; background.solid: $inherited.colors.background.step-1
+background.image: https://fastly.picsum.photos/id/617/1000/100.jpg?hmac=dz7LNDsK9L1lIjwYATNzJS9Lp_4kv0VdVnt0-20WYaM
+
+-- ds.heading-small: $header.title
+
+-- end: ftd.row
+
+-- end: header

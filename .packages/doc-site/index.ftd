@@ -1,0 +1,15 @@
+-- component page:
+caption title:
+children uis:
+
+-- ftd.column:
+width: fill-container
+
+-- ds.header: $page.title
+
+-- ui:
+for: $ui in $page.uis
+
+-- end: ftd.column
+
+-- end: page

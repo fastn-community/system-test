@@ -1,19 +1,12 @@
 -- import: fastn
 
 -- fastn.package: fastn-community.github.io/system-test
-favicon: /-/fastn-community.github.io/system-test/favicon.ico
 
--- fastn.dependency: fastn-community.github.io/doc-site as doc-site
--- fastn.dependency: fastn-community.github.io/footer
--- fastn.dependency: fastn-community.github.io/roboto-typography
--- fastn.dependency: fastn-community.github.io/dark-flame-cs
+-- fastn.dependency: other-ds
 
--- fastn.auto-import: fastn-community.github.io/system-test/FASTN/ds
--- fastn.auto-import: fastn-community.github.io/system-test/assets
--- fastn.auto-import: doc-site
+-- fastn.dependency: design-system
+;; provided-via: fastn-community.github.io/system-test/ds
+provided-via: other-ds
 
--- fastn.sitemap:
 
-# Home: index.html
-
-- Right Sidebar Sample: /sidebar/
+-- fastn.dependency: doc-site

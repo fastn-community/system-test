@@ -1,0 +1,6 @@
+-- import: fastn
+
+-- fastn.package: doc-site
+
+-- fastn.dependency: design-system
+required-as: ds

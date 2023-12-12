@@ -1,0 +1,5 @@
+-- import: fastn
+
+-- fastn.package: design-system
+system: ds
+system-is-confidential: false
